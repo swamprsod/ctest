@@ -1,3 +1,5 @@
+// t,s,a;main(){for(;t<300;t++){a=t%60;s=a>30?59-a:a;printf("\033c%*s%s\n",s,"",a>30?"<><":"><>");usleep(100000);}} 
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
